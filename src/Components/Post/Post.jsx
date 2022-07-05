@@ -4,7 +4,7 @@ import "./post.css";
 import { NavLink } from "react-router-dom";
 
 function Post({ post }) {
-  const PF = "http://localhost:5000/Images/";
+  const PF = "https://blog-sailal-final.herokuapp.com/Images/";
   return (
     <>
       <div className="cols">

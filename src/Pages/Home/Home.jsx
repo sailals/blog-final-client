@@ -17,7 +17,9 @@ function Home() {
   const { search } = useLocation();
   useEffect(() => {
     const fetchPost = async () => {
-      const res = await axios.get("http://localhost:5000/api/posts" + search);
+      const res = await axios.get(
+        "https://blog-sailal-final.herokuapp.com/api/posts" + search
+      );
       setPosts(res.data);
     };
     fetchPost();

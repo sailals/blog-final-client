@@ -22,11 +22,14 @@ function Signin() {
     e.preventDefault();
     const { username, email, password } = data;
     try {
-      const res = await axios.post("http://localhost:5000/api/auth/signin", {
-        username,
-        email,
-        password,
-      });
+      const res = await axios.post(
+        "https://blog-sailal-final.herokuapp.com/api/auth/signin",
+        {
+          username,
+          email,
+          password,
+        }
+      );
       if (res.data) window.location.replace("/");
     } catch (err) {
       console.log(err);

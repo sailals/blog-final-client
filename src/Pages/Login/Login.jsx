@@ -17,10 +17,13 @@ function Login() {
     e.preventDefault();
     dispatch({ type: "LOGIN_START" });
     try {
-      const res = await axios.post("http://localhost:5000/api/auth/login/", {
-        username: userRef.current.value,
-        password: passwordRef.current.value,
-      });
+      const res = await axios.post(
+        "https://blog-sailal-final.herokuapp.com/api/auth/login/",
+        {
+          username: userRef.current.value,
+          password: passwordRef.current.value,
+        }
+      );
       console.log(res.data);
       if (res.data === "Wrong Credentials") {
         userRef.current.value = "";

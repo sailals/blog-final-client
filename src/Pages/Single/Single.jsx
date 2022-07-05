@@ -15,7 +15,9 @@ function Single() {
 
   useEffect(() => {
     const fetchPost = async () => {
-      const res = await axios.get(`http://localhost:5000/api/posts/${path}`);
+      const res = await axios.get(
+        `https://blog-sailal-final.herokuapp.com/api/posts/${path}`
+      );
       setPost(res.data);
       setCat(res.data.categories);
     };
@@ -28,22 +30,28 @@ function Single() {
 
   const handleUpdate = async (e) => {
     e.preventDefault();
-    await axios.put(`http://localhost:5000/api/posts/${post._id}`, {
-      username: user.username,
-      title,
-      desc,
-    });
+    await axios.put(
+      `https://blog-sailal-final.herokuapp.com/api/posts/${post._id}`,
+      {
+        username: user.username,
+        title,
+        desc,
+      }
+    );
     setUpdate(false);
     window.location.replace("/");
   };
 
   const handleDelete = async () => {
-    await axios.delete(`http://localhost:5000/api/posts/${post._id}`, {
-      data: { username: user.username },
-    });
+    await axios.delete(
+      `https://blog-sailal-final.herokuapp.com/api/posts/${post._id}`,
+      {
+        data: { username: user.username },
+      }
+    );
     window.location.replace("/");
   };
-  const PF = "http://localhost:5000/Images/";
+  const PF = "https://blog-sailal-final.herokuapp.com/Images/";
 
   return (
     <>
