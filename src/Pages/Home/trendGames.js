@@ -1,0 +1,77 @@
+const dataG = [
+  {
+    id: 1,
+    title: "Ghost Of Tushima",
+    videoid: "b_iU_gnn28U",
+    logo: "../../Images/su.png",
+    src: "https://m.media-amazon.com/images/M/MV5BMjEwYjRjZjctNWRmNy00NDA1LWE1MjYtYTlhMWIzZGNhMWYxXkEyXkFqcGdeQXVyMzY0MTE3NzU@._V1_.jpg",
+    desc: "Ghost of Tsushima is a 2020 action-adventure game developed by Sucker Punch Productions and published by Sony Interactive Entertainment. Featuring an open world, the player controls Jin Sakai, a samurai on a quest to protect Tsushima Island during the first Mongol invasion of Japan.",
+  },
+  {
+    id: 2,
+    title: "God of War",
+    videoid: "Ut7FkcpYL74",
+    logo: "../../Images/san.png",
+    src: "https://m.media-amazon.com/images/M/MV5BMmVjMzkyYWMtNDNhNi00ZWI3LTgxNGUtODRkMWYxNjZmNDI5XkEyXkFqcGdeQXVyMzY0MTE3NzU@._V1_.jpg",
+    desc: "God of War (also known as God of War IV) is the sequel to God of War III as well as a continuation of the canon God of War chronology. God of War is the eighth installment in the franchise overall.Unlike previous installments, this game focuses on Norse mythology and follows an older and more seasoned Kratos and his new son Atreus in the years since God of War III",
+  },
+  {
+    id: 3,
+    title: "Ratchet & Clank: Rift Apart",
+    videoid: "55PRv_e00wc",
+    logo: "../../Images/in.png",
+    src: "https://m.media-amazon.com/images/M/MV5BMTJmMDdjMGItNzMyYS00NWQ3LWFhODEtZTU0OTIyNmRmYmQzXkEyXkFqcGdeQXVyMTk2OTAzNTI@._V1_FMjpg_UX1000_.jpg",
+    desc: "Ratchet & Clank: Rift Apart is a 2021 third-person shooter platform game developed by Insomniac Games and published by Sony Interactive Entertainment for the PlayStation 5 ",
+  },
+  {
+    id: 4,
+    title: "Red Dead Redemtion 2",
+    videoid: "eaW0tYpxyp0",
+    logo: "../../Images/r.png",
+    src: "https://m.media-amazon.com/images/M/MV5BMjMyZDY5NTctMzQ0Ny00ZTU0LWE1ZDYtNDYzMjAxYjA1ZGYxXkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_FMjpg_UX1000_.jpg",
+    desc: "Red Dead Redemption 2 is a 2018 action-adventure game developed and published by Rockstar Games. The game is the third entry in the Red Dead series and a prequel to the 2010 game Red Dead Redemption.",
+  },
+  {
+    id: 5,
+    title: "Gotham Knights",
+    videoid: "IhVf_3TeTQE",
+    logo: "../../Images/wb.png",
+    src: "https://m.media-amazon.com/images/M/MV5BNDY5NGViY2UtZDBkYS00ODFlLTg5ZjgtMjRjZmQyNjliMDZmXkEyXkFqcGdeQXVyMTk2OTAzNTI@._V1_.jpg",
+    desc: "Gotham Knights is an upcoming action role-playing game developed by WB Games Montréal and published by Warner Bros. Interactive Entertainment.",
+  },
+  {
+    id: 6,
+    title: "Horizon Forbidden West",
+    videoid: "Lq594XmpPBg",
+    logo: "../../Images/gu.png",
+    src: "https://m.media-amazon.com/images/M/MV5BZDQ2NjJjYjAtNDhmMy00OTk0LTliYjctNDIwYTdlYzZjZTYxXkEyXkFqcGdeQXVyMzY0MTE3NzU@._V1_FMjpg_UX1000_.jpg",
+    desc: "Horizon Forbidden West is a 2022 action role-playing game developed by Guerrilla Games and published by Sony Interactive Entertainment",
+  },
+  {
+    id: 7,
+    title: "Days Gone",
+    videoid: "FKtaOY9lMvM",
+    logo: "../../Images/bd.png",
+    src: "https://m.media-amazon.com/images/M/MV5BMzdhNThjYzEtMDRmNi00MmY2LWJkMWItZWUzY2ZjOTcwOTQyXkEyXkFqcGdeQXVyMzY0MTE3NzU@._V1_.jpg",
+    desc: "Days Gone is a 2019 action-adventure video game developed by Bend Studio and published by Sony Interactive Entertainment. The game is set in post-apocalyptic Oregon two years after the start of a pandemic that turned a portion of humanity into vicious zombie-like creatures.",
+  },
+  {
+    // GOT
+    id: 8,
+    title: "Last Of Us Part 2",
+    videoid: "vhII1qlcZ4E",
+    logo: "../../Images/nd.png",
+    src: "https://m.media-amazon.com/images/M/MV5BODUwNWY5YjctNDZkNy00ZTY1LWEzMzItZGVkYTllOWVjOTc3XkEyXkFqcGdeQXVyNjU4NTIxNzI@._V1_FMjpg_UX1000_.jpg",
+    desc: "The Last of Us Part II is a 2020 action-adventure game developed by Naughty Dog and published by Sony Interactive Entertainment for the PlayStation 4.",
+  },
+  {
+    id: 9,
+    title: "Marvel's Spider-Man: Miles Morales",
+    videoid: "NTunTURbyUU",
+    logo: "../../Images/in.png",
+    src: "https://m.media-amazon.com/images/M/MV5BMTFhNWU3MDQtYzJjZi00NjlkLTlkODMtNWRiOGY3OGMxNGQ4XkEyXkFqcGdeQXVyMzIwMjMyMzc@._V1_FMjpg_UX1000_.jpg",
+    desc: "Marvel's Spider-Man: Miles Morales is a 2020 action-adventure game developed by Insomniac Games and published by Sony Interactive Entertainment.",
+  },
+];
+
+export default dataG;

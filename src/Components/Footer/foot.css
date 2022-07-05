@@ -1,0 +1,22 @@
+#main-footer {
+  background-color: rgb(25, 25, 25);
+  color: #fff;
+  margin-top: 150px;
+}
+#main-footer img {
+  width: 165px;
+  height: 150px;
+}
+
+#main-footer .footer-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+#main-footer .footer-container > *:last-child {
+  background-color: #333;
+  grid-column: 1 / span 4;
+  padding: 8px;
+  text-align: center;
+  font-size: 15px;
+}

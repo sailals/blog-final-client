@@ -1,0 +1,14 @@
+.small {
+  font-family: "Lora", serif;
+  font-size: 30px;
+  font-weight: 50;
+}
+.big {
+  font-family: "Lora", serif;
+  font-weight: 500;
+  font-size: 60px;
+}
+.imgContainer img {
+  width: 100%;
+  object-fit: contain;
+}

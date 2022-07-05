@@ -1,0 +1,45 @@
+.write .card {
+  border: none;
+}
+.write input[type="text"] {
+  border: none;
+  background-color: rgb(26, 26, 26);
+  color: #fff;
+}
+.write textarea {
+  border: none;
+
+  font-family: lora;
+  background-color: rgb(26, 26, 26);
+  color: #fff;
+}
+.write i {
+  padding: 10px;
+  color: white;
+  background-color: darkslategray;
+  border-radius: 50%;
+}
+.write span {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: lora;
+}
+.write button {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: lora, sans-serif;
+}
+
+.st {
+  background-color: rgb(26, 26, 26);
+  color: #fff;
+}
+.write input:focus {
+  background-color: rgb(26, 26, 26);
+  color: #fff;
+  border: none;
+}
+.write textarea:focus {
+  background-color: rgb(26, 26, 26);
+  color: #fff;
+}

@@ -1,0 +1,49 @@
+.title {
+  font-family: "Lora", sans-serif;
+  margin: 10px;
+  font-size: 28px;
+}
+.cardImage img {
+  height: 500px;
+}
+.card {
+  border-radius: 5px;
+}
+.singlePostIcon {
+  margin-left: 10px;
+  cursor: pointer;
+}
+.icon1 {
+  color: teal;
+}
+.icon2 {
+  color: tomato;
+}
+.author {
+  color: tomato;
+  font-family: "Lora", sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+}
+.time {
+  font-size: 15px;
+}
+.st {
+  background-color: rgb(26, 26, 26);
+  color: #fff;
+}
+.text-control {
+  background-color: rgba(25, 25, 25);
+  color: #fff;
+  border: none;
+  font-family: lora, sans-serif;
+}
+.text-control:focus {
+  background-color: rgba(25, 25, 25);
+  color: #fff;
+  border: none;
+  outline: none;
+}
+.btn {
+  font-family: lora, sans-serif;
+}

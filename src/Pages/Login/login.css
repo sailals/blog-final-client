@@ -1,0 +1,31 @@
+.hero {
+  background: url("https://miro.medium.com/max/1400/1*5lyavS59mazOFnb55Z6znQ.png")
+    no-repeat center center/cover;
+  height: 100vh;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+}
+.form-container {
+  height: 75vh;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6) !important;
+}
+.cont-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  font-family: "Lora", serif;
+  font-weight: 100;
+  font-size: 50px;
+}
+form input,
+button {
+  padding: 10px !important;
+}

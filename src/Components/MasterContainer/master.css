@@ -1,0 +1,19 @@
+.master img {
+  object-fit: contain;
+  width: 100%;
+  max-height: 400px;
+  margin-left: 20px;
+
+  transition: transform 450ms;
+}
+
+.desc img {
+  width: 150px;
+  height: 150px;
+}
+.img-container {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: end;
+}
